@@ -1,0 +1,22 @@
+//
+//  bms.pch
+//  PrograssView
+//
+//  Created by 王玉 on 2017/4/19.
+//  Copyright © 2017年 JADE. All rights reserved.
+//
+
+#ifndef bms_pch
+#define bms_pch
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define uWeakSelf typeof(self) __weak weakSelf = self;
+
+//#import "UIView+frame.h"
+//#import "UIView+Shadow.h"
+//#import "DateHelper.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* bms_pch */
